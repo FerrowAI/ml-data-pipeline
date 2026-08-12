@@ -1,4 +1,5 @@
 # ml-data-pipeline
+![CI](https://github.com/FerrowAI/ml-data-pipeline/actions/workflows/ci.yml/badge.svg)
 
 Lightweight tabular data prep — no tensor/ML framework dependency. Column
 typing, normalization, one-hot encoding, seeded shuffling, splitting, and
