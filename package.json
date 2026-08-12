@@ -1,1 +1,24 @@
-{"name":"ml-data-pipeline","version":"1.0.0","main":"dist/index.js","types":"dist/index.d.ts","scripts":{"build":"tsc","test":"jest"},"keywords":["ferrow"],"license":"MIT"}
+{
+  "name": "ml-data-pipeline",
+  "version": "2.0.0",
+  "description": "Lightweight tabular data prep, no tensor deps: column typing, normalize/standardize with saved fit params, one-hot encoding, seeded shuffle, train/test split, simple imputation, and a chainable Pipeline that serializes its fitted params.",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "demo": "tsc && node dist/examples/demo.js"
+  },
+  "keywords": [
+    "data-preprocessing",
+    "tabular-data",
+    "normalization",
+    "one-hot-encoding",
+    "typescript",
+    "train-test-split"
+  ],
+  "author": "Ruzylo-cloud",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5"
+  }
+}
