@@ -1,0 +1,24 @@
+# ml-data-pipeline
+> Lightweight tabular data prep, no tensor deps: column typing, normalize/standardize with saved fit params, one-hot encoding, seeded shuffle, train/test split, simple imputation, and a chainable Pipeline that serializes its fitted params.
+
+Lightweight tabular data prep — no tensor/ML framework dependency. Column typing, normalization, one-hot encoding, seeded shuffling, splitting, and imputation, all built around a **fit/transform split**: params are computed
+
+## API
+- `inferColumnTypes`
+- `fitMinMax`
+- `applyMinMax`
+- `fitZScore`
+- `applyZScore`
+- `fitOneHot`
+- `applyOneHot`
+- `mulberry32`
+- `seededShuffle`
+- `trainTestSplit`
+- `fitImpute`
+- `applyImpute`
+- `Pipeline`
+
+## Install
+Each library is a standalone GitHub repo under github.com/Ruzylo-cloud.
+
+Part of the Ferrow open-source toolkit: https://github.com/Ruzylo-cloud/ferrow-toolkit — sponsored by https://ferrow.ai
