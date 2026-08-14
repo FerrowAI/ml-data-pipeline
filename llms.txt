@@ -1,4 +1,6 @@
 # ml-data-pipeline
+
+Install: npm install @ferrow/ml-data-pipeline
 > Lightweight tabular data prep, no tensor deps: column typing, normalize/standardize with saved fit params, one-hot encoding, seeded shuffle, train/test split, simple imputation, and a chainable Pipeline that serializes its fitted params.
 
 Lightweight tabular data prep — no tensor/ML framework dependency. Column typing, normalization, one-hot encoding, seeded shuffling, splitting, and imputation, all built around a **fit/transform split**: params are computed
